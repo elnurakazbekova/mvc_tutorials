@@ -12,6 +12,9 @@
     <Folder Include="Views\Hello\" />
     <Folder Include="Views\Message\" />
     <Folder Include="Views\Shared\" />
+    <Folder Include="Models\" />
+    <Folder Include="Models\Movies\" />
+    <Folder Include="Views\Movies\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -25,5 +28,8 @@
 
   <ItemGroup>
     <Content Remove="Views\Calculator\_ViewStart.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Controllers\Movie.cs" />
   </ItemGroup>
 </Project>
